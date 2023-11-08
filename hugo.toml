@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://aliff-blog.vercel.app/'
 languageCode = 'en-us'
 title = 'Aliff - Blog'
 theme = 'archie'

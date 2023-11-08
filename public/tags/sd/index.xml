@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sd on Aliff - Blog</title>
-    <link>http://example.org/tags/sd/</link>
+    <link>https://aliff-blog.vercel.app/tags/sd/</link>
     <description>Recent content in sd on Aliff - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Aliff</copyright><atom:link href="http://example.org/tags/sd/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Aliff</copyright><atom:link href="https://aliff-blog.vercel.app/tags/sd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Title of the post</title>
-      <link>http://example.org/posts/my-first-post/</link>
+      <link>https://aliff-blog.vercel.app/posts/my-first-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
+      <guid>https://aliff-blog.vercel.app/posts/my-first-post/</guid>
       <description></description>
     </item>
     

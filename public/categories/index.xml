@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Aliff - Blog</title>
-    <link>http://example.org/categories/</link>
+    <link>https://aliff-blog.vercel.app/categories/</link>
     <description>Recent content in Categories on Aliff - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Aliff</copyright><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Aliff</copyright><atom:link href="https://aliff-blog.vercel.app/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://aliff-blog.vercel.app/</loc>
     <lastmod>2023-11-05T20:34:00+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/fourth-post/</loc>
+    <loc>https://aliff-blog.vercel.app/posts/fourth-post/</loc>
     <lastmod>2023-11-05T20:34:00+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/linux/</loc>
+    <loc>https://aliff-blog.vercel.app/tags/linux/</loc>
     <lastmod>2023-11-05T20:34:00+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://aliff-blog.vercel.app/posts/</loc>
     <lastmod>2023-11-05T20:34:00+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://aliff-blog.vercel.app/tags/</loc>
     <lastmod>2023-11-05T20:34:00+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/third-post/</loc>
+    <loc>https://aliff-blog.vercel.app/posts/third-post/</loc>
     <lastmod>2023-11-05T20:09:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/second-post/</loc>
+    <loc>https://aliff-blog.vercel.app/posts/second-post/</loc>
     <lastmod>2023-11-05T20:09:15+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://aliff-blog.vercel.app/about/</loc>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://aliff-blog.vercel.app/categories/</loc>
   </url><url>
-    <loc>http://example.org/tags/sd/</loc>
+    <loc>https://aliff-blog.vercel.app/tags/sd/</loc>
   </url><url>
-    <loc>http://example.org/posts/my-first-post/</loc>
+    <loc>https://aliff-blog.vercel.app/posts/my-first-post/</loc>
   </url>
 </urlset>
