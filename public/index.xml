@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aliff - Blog</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Aliff - Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Aliff</copyright>
+    <lastBuildDate>Sun, 05 Nov 2023 20:34:00 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fourth Post</title>
+      <link>http://example.org/posts/fourth-post/</link>
+      <pubDate>Sun, 05 Nov 2023 20:34:00 +0800</pubDate>
+      
+      <guid>http://example.org/posts/fourth-post/</guid>
+      <description>alskdhal askdja asdkj</description>
+    </item>
+    
+    <item>
+      <title>Third Post</title>
+      <link>http://example.org/posts/third-post/</link>
+      <pubDate>Sun, 05 Nov 2023 20:09:38 +0800</pubDate>
+      
+      <guid>http://example.org/posts/third-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Second Post</title>
+      <link>http://example.org/posts/second-post/</link>
+      <pubDate>Sun, 05 Nov 2023 20:09:15 +0800</pubDate>
+      
+      <guid>http://example.org/posts/second-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aliff Aiman</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>About During my childhood, a single YouTube tutorial on HTML manipulation ignited my passion for programming. This discovery led me to pursue a degree in Computer Science, where I delved deeper into software development, programming concepts, and computer architecture. Along my educational journey, I have gained proficiency in renowned frameworks such as React.js and Flask, amongst others.
+Personal Information Name: Muhammad Aliff Aiman Bin Zolkifeli Degree: Bachelor&amp;rsquo;s Degree in Computer Science Email: alifzulkifeli@gmail.</description>
+    </item>
+    
+    <item>
+      <title>Title of the post</title>
+      <link>http://example.org/posts/my-first-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/my-first-post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

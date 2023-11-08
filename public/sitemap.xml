@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2023-11-05T20:34:00+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/fourth-post/</loc>
+    <lastmod>2023-11-05T20:34:00+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/linux/</loc>
+    <lastmod>2023-11-05T20:34:00+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/</loc>
+    <lastmod>2023-11-05T20:34:00+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2023-11-05T20:34:00+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/third-post/</loc>
+    <lastmod>2023-11-05T20:09:38+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/second-post/</loc>
+    <lastmod>2023-11-05T20:09:15+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/about/</loc>
+  </url><url>
+    <loc>http://example.org/categories/</loc>
+  </url><url>
+    <loc>http://example.org/tags/sd/</loc>
+  </url><url>
+    <loc>http://example.org/posts/my-first-post/</loc>
+  </url>
+</urlset>
