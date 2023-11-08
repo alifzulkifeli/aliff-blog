@@ -7,32 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Aliff</copyright>
-    <lastBuildDate>Sun, 05 Nov 2023 20:34:00 +0800</lastBuildDate><atom:link href="https://aliff-blog.vercel.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Nov 2023 21:27:53 +0800</lastBuildDate><atom:link href="https://aliff-blog.vercel.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Fourth Post</title>
-      <link>https://aliff-blog.vercel.app/posts/fourth-post/</link>
-      <pubDate>Sun, 05 Nov 2023 20:34:00 +0800</pubDate>
+      <title>What&#39;s New in Next 13</title>
+      <link>https://aliff-blog.vercel.app/posts/whats-new-in-next-13/</link>
+      <pubDate>Wed, 08 Nov 2023 21:27:53 +0800</pubDate>
       
-      <guid>https://aliff-blog.vercel.app/posts/fourth-post/</guid>
-      <description>alskdhal askdja asdkj</description>
-    </item>
-    
-    <item>
-      <title>Third Post</title>
-      <link>https://aliff-blog.vercel.app/posts/third-post/</link>
-      <pubDate>Sun, 05 Nov 2023 20:09:38 +0800</pubDate>
-      
-      <guid>https://aliff-blog.vercel.app/posts/third-post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Second Post</title>
-      <link>https://aliff-blog.vercel.app/posts/second-post/</link>
-      <pubDate>Sun, 05 Nov 2023 20:09:15 +0800</pubDate>
-      
-      <guid>https://aliff-blog.vercel.app/posts/second-post/</guid>
-      <description></description>
+      <guid>https://aliff-blog.vercel.app/posts/whats-new-in-next-13/</guid>
+      <description>Create new next project using typescript npx create-next-app@latest --ts app-name Basic URL structure about -&amp;gt; example/about [slug] -&amp;gt; example/{slug} (group_name) -&amp;gt; example Layout layout only will be implemented on the current sub directory a good place to do data fetching All is Server Component since next13, all compponent is server component by default. So it will be cache if the url is not dynamic, to prevent this can use below way:</description>
     </item>
     
     <item>
@@ -43,15 +25,6 @@
       <guid>https://aliff-blog.vercel.app/about/</guid>
       <description>About During my childhood, a single YouTube tutorial on HTML manipulation ignited my passion for programming. This discovery led me to pursue a degree in Computer Science, where I delved deeper into software development, programming concepts, and computer architecture. Along my educational journey, I have gained proficiency in renowned frameworks such as React.js and Flask, amongst others.
 Personal Information Name: Muhammad Aliff Aiman Bin Zolkifeli Degree: Bachelor&amp;rsquo;s Degree in Computer Science Email: alifzulkifeli@gmail.</description>
-    </item>
-    
-    <item>
-      <title>Title of the post</title>
-      <link>https://aliff-blog.vercel.app/posts/my-first-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://aliff-blog.vercel.app/posts/my-first-post/</guid>
-      <description></description>
     </item>
     
   </channel>
