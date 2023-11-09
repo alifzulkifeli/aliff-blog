@@ -1,7 +1,7 @@
 ---
 title: "What's New in Next 13"
 date: 2023-11-08T21:27:53+08:00
-description: ""
+description: "New things in Nextjs 13"
 draft: false 
 tags: ["Next.js"]
 ---
