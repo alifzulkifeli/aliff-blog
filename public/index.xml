@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Aliff</copyright>
-    <lastBuildDate>Wed, 08 Nov 2023 21:27:53 +0800</lastBuildDate><atom:link href="https://aliff-blog.vercel.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Nov 2023 22:22:24 +0800</lastBuildDate><atom:link href="https://aliff-blog.vercel.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>App Routing in Next.js 13: Dynamic Routes Simplified</title>
+      <link>https://aliff-blog.vercel.app/posts/app-router/</link>
+      <pubDate>Thu, 09 Nov 2023 22:22:24 +0800</pubDate>
+      
+      <guid>https://aliff-blog.vercel.app/posts/app-router/</guid>
+      <description>Next.js, a popular React framework, is well-known for its efficiency in building server-rendered applications. One of its powerful features is the file system-based routing mechanism. In this blog post, we&amp;rsquo;ll explore how to implement dynamic routing in Next.js 13, covering both server-side and client-side approaches.
+Dynamic Routing in Server-Side Dynamic routing is a pivotal feature in modern web applications, allowing URLs to be flexibly handled. In Next.js, dynamic routes are defined using file names in square brackets.</description>
+    </item>
+    
     <item>
       <title>What&#39;s New in Next 13</title>
       <link>https://aliff-blog.vercel.app/posts/whats-new-in-next-13/</link>
