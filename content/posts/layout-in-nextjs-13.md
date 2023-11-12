@@ -10,7 +10,7 @@ tags: ["Next.js"]
 
 Next.js 13 introduces enhanced layout capabilities, offering developers more control and flexibility. This guide delves into the concept of root layouts and how they can transform the structure of your Next.js applications.
 
-![root layout](/static/images/0003.png)
+![root layout](/images/0003.png)
 
 
 **Shared Layouts Across Pages**: The beauty of root layouts lies in their reusability. By defining a layout at the root level, all child components inherit this structure, ensuring a consistent look and feel across your application.
