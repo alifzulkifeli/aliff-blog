@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Aliff</copyright>
-    <lastBuildDate>Sat, 11 Nov 2023 21:21:25 +0800</lastBuildDate><atom:link href="https://aliff-blog.vercel.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Nov 2023 20:50:54 +0800</lastBuildDate><atom:link href="https://aliff-blog.vercel.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Layout Techniques in Next.js 13</title>
+      <link>https://aliff-blog.vercel.app/posts/layout-in-nextjs-13/</link>
+      <pubDate>Sun, 12 Nov 2023 20:50:54 +0800</pubDate>
+      
+      <guid>https://aliff-blog.vercel.app/posts/layout-in-nextjs-13/</guid>
+      <description>Root layout Next.js 13 introduces enhanced layout capabilities, offering developers more control and flexibility. This guide delves into the concept of root layouts and how they can transform the structure of your Next.js applications.
+Shared Layouts Across Pages: The beauty of root layouts lies in their reusability. By defining a layout at the root level, all child components inherit this structure, ensuring a consistent look and feel across your application.</description>
+    </item>
+    
     <item>
       <title>Mastering API Endpoints with Next.js 13: A Guide to GET and POST Requests</title>
       <link>https://aliff-blog.vercel.app/posts/route-handlers-nextjs13/</link>
