@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Aliff</copyright>
-    <lastBuildDate>Sun, 12 Nov 2023 20:50:54 +0800</lastBuildDate><atom:link href="https://aliff-blog.vercel.app/tags/next.js/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Nov 2023 17:20:52 +0800</lastBuildDate><atom:link href="https://aliff-blog.vercel.app/tags/next.js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring Rendering Techniques and SEO with Next.js</title>
+      <link>https://aliff-blog.vercel.app/posts/rendering-and-seo/</link>
+      <pubDate>Mon, 13 Nov 2023 17:20:52 +0800</pubDate>
+      
+      <guid>https://aliff-blog.vercel.app/posts/rendering-and-seo/</guid>
+      <description>Overview of Rendering Methods in Next.js Next.js offers several rendering methods, each with unique characteristics and use cases:
+Server-Side Rendering (SSR): Renders pages on the server at request time. Static Generation (Prerendering): Generates static HTML at build time. Incremental Static Regeneration (ISR): Updates static content after deployment. Client-Side Rendering: Renders in the browser using JavaScript. Server-Side Rendering in page.tsx By default, page.tsx is server-rendered. To leverage hooks, they must be integrated within client-side components.</description>
+    </item>
+    
     <item>
       <title>Layout Techniques in Next.js 13</title>
       <link>https://aliff-blog.vercel.app/posts/layout-in-nextjs-13/</link>
