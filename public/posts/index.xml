@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Aliff</copyright>
-    <lastBuildDate>Mon, 13 Nov 2023 17:20:52 +0800</lastBuildDate><atom:link href="https://aliff-blog.vercel.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Dec 2023 22:35:08 +0800</lastBuildDate><atom:link href="https://aliff-blog.vercel.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started Typescript</title>
+      <link>https://aliff-blog.vercel.app/posts/getting-started-typescript/</link>
+      <pubDate>Wed, 06 Dec 2023 22:35:08 +0800</pubDate>
+      
+      <guid>https://aliff-blog.vercel.app/posts/getting-started-typescript/</guid>
+      <description>Setting Up TypeScript for Your Project TypeScript is a powerful tool that enhances JavaScript with types, making your code more robust and maintainable. Let&amp;rsquo;s walk through setting up TypeScript in your project.
+Step 1: Initialize TypeScript Configuration Start by initializing a TypeScript configuration file:
+tsc --init This command creates a tsconfig.json file in your project root, which is the heart of your TypeScript setup. It&amp;rsquo;s where you&amp;rsquo;ll specify how TypeScript compiles your code.</description>
+    </item>
+    
     <item>
       <title>Exploring Rendering Techniques and SEO with Next.js</title>
       <link>https://aliff-blog.vercel.app/posts/rendering-and-seo/</link>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TypeScript on Aliff - Blog</title>
+    <link>https://aliff-blog.vercel.app/tags/typescript/</link>
+    <description>Recent content in TypeScript on Aliff - Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Aliff</copyright>
+    <lastBuildDate>Wed, 06 Dec 2023 22:35:08 +0800</lastBuildDate><atom:link href="https://aliff-blog.vercel.app/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started Typescript</title>
+      <link>https://aliff-blog.vercel.app/posts/getting-started-typescript/</link>
+      <pubDate>Wed, 06 Dec 2023 22:35:08 +0800</pubDate>
+      
+      <guid>https://aliff-blog.vercel.app/posts/getting-started-typescript/</guid>
+      <description>Setting Up TypeScript for Your Project TypeScript is a powerful tool that enhances JavaScript with types, making your code more robust and maintainable. Let&amp;rsquo;s walk through setting up TypeScript in your project.
+Step 1: Initialize TypeScript Configuration Start by initializing a TypeScript configuration file:
+tsc --init This command creates a tsconfig.json file in your project root, which is the heart of your TypeScript setup. It&amp;rsquo;s where you&amp;rsquo;ll specify how TypeScript compiles your code.</description>
+    </item>
+    
+  </channel>
+</rss>
