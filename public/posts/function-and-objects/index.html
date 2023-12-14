@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Function and Objects in TypeScript - Aliff - Blog</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Explore the intricacies of functions and objects in TypeScript." />
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="Function and Objects in TypeScript" />
+<meta property="og:description" content="Explore the intricacies of functions and objects in TypeScript." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aliff-blog.vercel.app/posts/function-and-objects/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-12-14T23:08:53+08:00" />
+<meta property="article:modified_time" content="2023-12-14T23:08:53+08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Function and Objects in TypeScript"/>
+<meta name="twitter:description" content="Explore the intricacies of functions and objects in TypeScript."/>
+<script src="https://aliff-blog.vercel.app/js/feather.min.js"></script>
+	
+	
+        <link href="https://aliff-blog.vercel.app/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://aliff-blog.vercel.app/css/main.4c6bb700e7de4d54ea87f317614df419454d212e762d7552663c1441725b08e2.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://aliff-blog.vercel.app/css/dark.000188a0ca38bbc5e4f6e6d42ed675262aec90158db2240f3f3c37cd27d39108.css"  disabled />
+	
+
+	
+	
+
+	
+	
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css">
+		<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js"></script>
+		<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+		
+		
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+					renderMathInElement(document.body, {
+							delimiters: [
+									{left: "$$", right: "$$", display: true},
+									{left: "$", right: "$", display: false}
+							]
+					});
+			});
+			</script>
+	
+	
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://aliff-blog.vercel.app/">Aliff - Blog</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+		| <span id="dark-mode-toggle" onclick="toggleTheme()"></span>
+		<script src="https://aliff-blog.vercel.app/js/themetoggle.js"></script>
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Function and Objects in TypeScript</h1>
+			<div class="meta">Posted on Dec 14, 2023</div>
+		</div>
+
+
+		<section class="body">
+			<h1 id="functions-in-typescript">Functions in TypeScript</h1>
+<p>TypeScript enhances JavaScript functions with type safety and additional configurations. Here are some useful compiler options for functions:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;noUnusedLocals&#34;</span>: <span style="color:#66d9ef">true</span>,       <span style="color:#960050;background-color:#1e0010">/*</span> <span style="color:#960050;background-color:#1e0010">Reports</span> <span style="color:#960050;background-color:#1e0010">errors</span> <span style="color:#960050;background-color:#1e0010">for</span> <span style="color:#960050;background-color:#1e0010">unused</span> <span style="color:#960050;background-color:#1e0010">local</span> <span style="color:#960050;background-color:#1e0010">variables.</span> <span style="color:#960050;background-color:#1e0010">*/</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;noUnusedParameters&#34;</span>: <span style="color:#66d9ef">true</span>,   <span style="color:#960050;background-color:#1e0010">/*</span> <span style="color:#960050;background-color:#1e0010">Raises</span> <span style="color:#960050;background-color:#1e0010">errors</span> <span style="color:#960050;background-color:#1e0010">for</span> <span style="color:#960050;background-color:#1e0010">unused</span> <span style="color:#960050;background-color:#1e0010">function</span> <span style="color:#960050;background-color:#1e0010">parameters.</span> <span style="color:#960050;background-color:#1e0010">*/</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;noImplicitReturns&#34;</span>: <span style="color:#66d9ef">true</span>,    <span style="color:#960050;background-color:#1e0010">/*</span> <span style="color:#960050;background-color:#1e0010">Ensures</span> <span style="color:#960050;background-color:#1e0010">all</span> <span style="color:#960050;background-color:#1e0010">code</span> <span style="color:#960050;background-color:#1e0010">paths</span> <span style="color:#960050;background-color:#1e0010">in</span> <span style="color:#960050;background-color:#1e0010">a</span> <span style="color:#960050;background-color:#1e0010">function</span> <span style="color:#960050;background-color:#1e0010">explicitly</span> <span style="color:#960050;background-color:#1e0010">return</span> <span style="color:#960050;background-color:#1e0010">a</span> <span style="color:#960050;background-color:#1e0010">value.</span> <span style="color:#960050;background-color:#1e0010">*/</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="function-declaration-example">Function Declaration Example</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">calculateTax</span>(<span style="color:#a6e22e">income</span>: <span style="color:#66d9ef">number</span>, <span style="color:#a6e22e">year</span>: <span style="color:#66d9ef">number</span>)<span style="color:#f92672">:</span> <span style="color:#66d9ef">number</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">year</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">2022</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">income</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">1.2</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">income</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">1.3</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">calculateTax</span>(<span style="color:#ae81ff">10</span><span style="color:#a6e22e">_000</span>, <span style="color:#ae81ff">2023</span>)
+</span></span></code></pre></div><h2 id="setting-default-parameter-values">Setting Default Parameter Values</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">calculateTax</span>(<span style="color:#a6e22e">income</span>: <span style="color:#66d9ef">number</span>, <span style="color:#a6e22e">year</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">2023</span>)<span style="color:#f92672">:</span> <span style="color:#66d9ef">number</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">year</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">2022</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">income</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">1.2</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">income</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">1.3</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">calculateTax</span>(<span style="color:#ae81ff">10</span><span style="color:#a6e22e">_000</span>); <span style="color:#75715e">// Default year is 2023
+</span></span></span></code></pre></div><h1 id="objects-in-typescript">Objects in TypeScript</h1>
+<p>TypeScript allows you to define the shape of an object with specific types for properties.</p>
+<h2 id="declaring-objects">Declaring Objects</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">employee</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">id</span>: <span style="color:#66d9ef">number</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">name</span>: <span style="color:#66d9ef">string</span>
+</span></span><span style="display:flex;"><span>} <span style="color:#f92672">=</span> {<span style="color:#a6e22e">id</span>: <span style="color:#66d9ef">1</span>, <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;aliff&#39;</span>}
+</span></span></code></pre></div><h2 id="set-object-property-optional">Set object property optional</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">employee</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">id</span>: <span style="color:#66d9ef">number</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">name</span>: <span style="color:#66d9ef">string</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">age?</span>: <span style="color:#66d9ef">number</span> <span style="color:#75715e">// Optional property
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>} <span style="color:#f92672">=</span> { <span style="color:#a6e22e">id</span>: <span style="color:#66d9ef">1</span>, <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Aliff&#39;</span> };
+</span></span></code></pre></div><h2 id="readonly-properties">Readonly Properties</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">employee</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">readonly</span> <span style="color:#a6e22e">id</span>: <span style="color:#66d9ef">number</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">name</span>: <span style="color:#66d9ef">string</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">age?</span>: <span style="color:#66d9ef">number</span>
+</span></span><span style="display:flex;"><span>} <span style="color:#f92672">=</span> {<span style="color:#a6e22e">id</span>: <span style="color:#66d9ef">1</span>, <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;aliff&#39;</span>}
+</span></span></code></pre></div><h2 id="adding-methods-to-objects">Adding Methods to Objects</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">employee</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">readonly</span> <span style="color:#a6e22e">id</span>: <span style="color:#66d9ef">number</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">name</span>: <span style="color:#66d9ef">string</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">age?</span>: <span style="color:#66d9ef">number</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">retire</span><span style="color:#f92672">:</span> (<span style="color:#a6e22e">date</span>: <span style="color:#66d9ef">Date</span>) <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">void</span>
+</span></span><span style="display:flex;"><span>} <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">id</span>: <span style="color:#66d9ef">1</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Aliff&#39;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">retire</span><span style="color:#f92672">:</span> (<span style="color:#a6e22e">date</span>: <span style="color:#66d9ef">Date</span>) <span style="color:#f92672">=&gt;</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`Retirement date: </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">date</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>};
+</span></span></code></pre></div>
+		</section>
+
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="/tags/typescript">TypeScript</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+
+	</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/alifzulkifeli" rel="me" title="GitHub"><i data-feather="github"></i></a>
+    <a class="border"></a><a class="soc" href="https://twitter.com/alifzulkifeli_" rel="me" title="Twitter"><i data-feather="twitter"></i></a>
+    <a class="border"></a><a class="soc" href="https://www.linkedin.com/in/alifzulkifeli/" rel="me" title="LinkedIn"><i data-feather="linkedin"></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2023  © Aliff |  
+  </div>
+</footer>
+
+
+<script>
+  feather.replace()
+</script></div>
+    </body>
+</html>

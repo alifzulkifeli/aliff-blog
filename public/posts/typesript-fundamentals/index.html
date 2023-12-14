@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Typesript Fundamentals - Aliff - Blog</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="TypeScript, a strongly typed programming language that builds on JavaScript, offers various built-in types to enhance the coding experience. Understanding these types is crucial for efficient TypeScript programming.
+Built-in Types TypeScript&rsquo;s type inference allows variables to automatically be assigned a type based on the assigned value. However, explicitly defining the type is also possible.
+Example of Type Inference and Explicit Typing let profit = 123_456_789; // Inferred type: number let explicitProfit: number = 123_456_789; // Explicit type: number let variable; // Type: any The any Type The any type is flexible as it can represent any JavaScript value, providing an escape hatch from strict type checking." />
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="Typesript Fundamentals" />
+<meta property="og:description" content="TypeScript, a strongly typed programming language that builds on JavaScript, offers various built-in types to enhance the coding experience. Understanding these types is crucial for efficient TypeScript programming.
+Built-in Types TypeScript&rsquo;s type inference allows variables to automatically be assigned a type based on the assigned value. However, explicitly defining the type is also possible.
+Example of Type Inference and Explicit Typing let profit = 123_456_789; // Inferred type: number let explicitProfit: number = 123_456_789; // Explicit type: number let variable; // Type: any The any Type The any type is flexible as it can represent any JavaScript value, providing an escape hatch from strict type checking." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aliff-blog.vercel.app/posts/typesript-fundamentals/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-12-14T21:20:15+08:00" />
+<meta property="article:modified_time" content="2023-12-14T21:20:15+08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Typesript Fundamentals"/>
+<meta name="twitter:description" content="TypeScript, a strongly typed programming language that builds on JavaScript, offers various built-in types to enhance the coding experience. Understanding these types is crucial for efficient TypeScript programming.
+Built-in Types TypeScript&rsquo;s type inference allows variables to automatically be assigned a type based on the assigned value. However, explicitly defining the type is also possible.
+Example of Type Inference and Explicit Typing let profit = 123_456_789; // Inferred type: number let explicitProfit: number = 123_456_789; // Explicit type: number let variable; // Type: any The any Type The any type is flexible as it can represent any JavaScript value, providing an escape hatch from strict type checking."/>
+<script src="https://aliff-blog.vercel.app/js/feather.min.js"></script>
+	
+	
+        <link href="https://aliff-blog.vercel.app/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://aliff-blog.vercel.app/css/main.4c6bb700e7de4d54ea87f317614df419454d212e762d7552663c1441725b08e2.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://aliff-blog.vercel.app/css/dark.000188a0ca38bbc5e4f6e6d42ed675262aec90158db2240f3f3c37cd27d39108.css"  disabled />
+	
+
+	
+	
+
+	
+	
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css">
+		<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js"></script>
+		<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+		
+		
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+					renderMathInElement(document.body, {
+							delimiters: [
+									{left: "$$", right: "$$", display: true},
+									{left: "$", right: "$", display: false}
+							]
+					});
+			});
+			</script>
+	
+	
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://aliff-blog.vercel.app/">Aliff - Blog</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+		| <span id="dark-mode-toggle" onclick="toggleTheme()"></span>
+		<script src="https://aliff-blog.vercel.app/js/themetoggle.js"></script>
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Typesript Fundamentals</h1>
+			<div class="meta">Posted on Dec 14, 2023</div>
+		</div>
+
+
+		<section class="body">
+			<p>TypeScript, a strongly typed programming language that builds on JavaScript, offers various built-in types to enhance the coding experience. Understanding these types is crucial for efficient TypeScript programming.</p>
+<h2 id="built-in-types">Built-in Types</h2>
+<p>TypeScript&rsquo;s type inference allows variables to automatically be assigned a type based on the assigned value. However, explicitly defining the type is also possible.</p>
+<h3 id="example-of-type-inference-and-explicit-typing">Example of Type Inference and Explicit Typing</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-typescript" data-lang="typescript"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">profit</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">123</span><span style="color:#a6e22e">_456_789</span>; <span style="color:#75715e">// Inferred type: number
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">explicitProfit</span>: <span style="color:#66d9ef">number</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">123</span><span style="color:#a6e22e">_456_789</span>; <span style="color:#75715e">// Explicit type: number
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">variable</span>; <span style="color:#75715e">// Type: any
+</span></span></span></code></pre></div><h2 id="the-any-type">The any Type</h2>
+<p>The any type is flexible as it can represent any JavaScript value, providing an escape hatch from strict type checking. Use this with caution as it can undermine the benefits of TypeScript&rsquo;s type system.</p>
+<h2 id="arrays">Arrays</h2>
+<p>Arrays in TypeScript can be typed to contain elements of a specific type.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">numbers</span>: <span style="color:#66d9ef">number</span>[] <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>];
+</span></span></code></pre></div><h2 id="tuples">Tuples</h2>
+<p>Tuples are arrays with fixed lengths and ordered types.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">user</span><span style="color:#f92672">:</span> [<span style="color:#66d9ef">number</span>, <span style="color:#66d9ef">string</span>] <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#e6db74">&#34;Aliff&#34;</span>];
+</span></span></code></pre></div><h2 id="enums">Enums</h2>
+<p>Enums are a way to define a set of named constants, enhancing code readability and maintainability.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span><span style="color:#66d9ef">enum</span> <span style="color:#a6e22e">Size</span> { <span style="color:#a6e22e">Small</span>, <span style="color:#a6e22e">Medium</span>, <span style="color:#a6e22e">Large</span> };
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">mySize</span>: <span style="color:#66d9ef">Size</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">Size</span>.<span style="color:#a6e22e">Small</span>;
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">mySize</span>); <span style="color:#75715e">// Output: 0
+</span></span></span></code></pre></div>
+		</section>
+
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="/tags/typescript">TypeScript</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+
+	</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/alifzulkifeli" rel="me" title="GitHub"><i data-feather="github"></i></a>
+    <a class="border"></a><a class="soc" href="https://twitter.com/alifzulkifeli_" rel="me" title="Twitter"><i data-feather="twitter"></i></a>
+    <a class="border"></a><a class="soc" href="https://www.linkedin.com/in/alifzulkifeli/" rel="me" title="LinkedIn"><i data-feather="linkedin"></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2023  © Aliff |  
+  </div>
+</footer>
+
+
+<script>
+  feather.replace()
+</script></div>
+    </body>
+</html>
