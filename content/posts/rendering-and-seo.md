@@ -1,6 +1,6 @@
 ---
 title: "Exploring Rendering Techniques and SEO with Next.js"
-date: 2023-11-13T17:20:52+08:00
+date: 2024-01-06T17:20:52+08:00
 description: "A deep dive into various rendering methods in Next.js and their impact on SEO."
 draft: false
 tags: ["Next.js"]

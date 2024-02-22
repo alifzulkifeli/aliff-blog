@@ -2,43 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TypeScript on Aliff - Blog</title>
-    <link>https://aliff-blog.vercel.app/tags/typescript/</link>
+    <link>http://localhost:1313/tags/typescript/</link>
     <description>Recent content in TypeScript on Aliff - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Aliff</copyright>
-    <lastBuildDate>Thu, 14 Dec 2023 23:08:53 +0800</lastBuildDate><atom:link href="https://aliff-blog.vercel.app/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Dec 2023 23:08:53 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Function and Objects in TypeScript</title>
-      <link>https://aliff-blog.vercel.app/posts/function-and-objects/</link>
+      <link>http://localhost:1313/posts/function-and-objects/</link>
       <pubDate>Thu, 14 Dec 2023 23:08:53 +0800</pubDate>
-      
-      <guid>https://aliff-blog.vercel.app/posts/function-and-objects/</guid>
-      <description>Functions in TypeScript TypeScript enhances JavaScript functions with type safety and additional configurations. Here are some useful compiler options for functions:
-{ &amp;#34;noUnusedLocals&amp;#34;: true, /* Reports errors for unused local variables. */ &amp;#34;noUnusedParameters&amp;#34;: true, /* Raises errors for unused function parameters. */ &amp;#34;noImplicitReturns&amp;#34;: true, /* Ensures all code paths in a function explicitly return a value. */ } Function Declaration Example function calculateTax(income: number, year: number): number { if (year &amp;lt; 2022) { return income * 1.</description>
+      <guid>http://localhost:1313/posts/function-and-objects/</guid>
+      <description>Functions in TypeScript TypeScript enhances JavaScript functions with type safety and additional configurations. Here are some useful compiler options for functions:&#xA;{ &amp;#34;noUnusedLocals&amp;#34;: true, /* Reports errors for unused local variables. */ &amp;#34;noUnusedParameters&amp;#34;: true, /* Raises errors for unused function parameters. */ &amp;#34;noImplicitReturns&amp;#34;: true, /* Ensures all code paths in a function explicitly return a value. */ } Function Declaration Example function calculateTax(income: number, year: number): number { if (year &amp;lt; 2022) { return income * 1.</description>
     </item>
-    
     <item>
       <title>Typesript Fundamentals</title>
-      <link>https://aliff-blog.vercel.app/posts/typesript-fundamentals/</link>
+      <link>http://localhost:1313/posts/typesript-fundamentals/</link>
       <pubDate>Thu, 14 Dec 2023 21:20:15 +0800</pubDate>
-      
-      <guid>https://aliff-blog.vercel.app/posts/typesript-fundamentals/</guid>
-      <description>TypeScript, a strongly typed programming language that builds on JavaScript, offers various built-in types to enhance the coding experience. Understanding these types is crucial for efficient TypeScript programming.
-Built-in Types TypeScript&amp;rsquo;s type inference allows variables to automatically be assigned a type based on the assigned value. However, explicitly defining the type is also possible.
-Example of Type Inference and Explicit Typing let profit = 123_456_789; // Inferred type: number let explicitProfit: number = 123_456_789; // Explicit type: number let variable; // Type: any The any Type The any type is flexible as it can represent any JavaScript value, providing an escape hatch from strict type checking.</description>
+      <guid>http://localhost:1313/posts/typesript-fundamentals/</guid>
+      <description>TypeScript, a strongly typed programming language that builds on JavaScript, offers various built-in types to enhance the coding experience. Understanding these types is crucial for efficient TypeScript programming.&#xA;Built-in Types TypeScript&amp;rsquo;s type inference allows variables to automatically be assigned a type based on the assigned value. However, explicitly defining the type is also possible.&#xA;Example of Type Inference and Explicit Typing let profit = 123_456_789; // Inferred type: number let explicitProfit: number = 123_456_789; // Explicit type: number let variable; // Type: any The any Type The any type is flexible as it can represent any JavaScript value, providing an escape hatch from strict type checking.</description>
     </item>
-    
     <item>
       <title>Getting Started Typescript</title>
-      <link>https://aliff-blog.vercel.app/posts/getting-started-typescript/</link>
+      <link>http://localhost:1313/posts/getting-started-typescript/</link>
       <pubDate>Wed, 06 Dec 2023 22:35:08 +0800</pubDate>
-      
-      <guid>https://aliff-blog.vercel.app/posts/getting-started-typescript/</guid>
-      <description>Setting Up TypeScript for Your Project TypeScript is a powerful tool that enhances JavaScript with types, making your code more robust and maintainable. Let&amp;rsquo;s walk through setting up TypeScript in your project.
-Step 1: Initialize TypeScript Configuration Start by initializing a TypeScript configuration file:
-tsc --init This command creates a tsconfig.json file in your project root, which is the heart of your TypeScript setup. It&amp;rsquo;s where you&amp;rsquo;ll specify how TypeScript compiles your code.</description>
+      <guid>http://localhost:1313/posts/getting-started-typescript/</guid>
+      <description>Setting Up TypeScript for Your Project TypeScript is a powerful tool that enhances JavaScript with types, making your code more robust and maintainable. Let&amp;rsquo;s walk through setting up TypeScript in your project.&#xA;Step 1: Initialize TypeScript Configuration Start by initializing a TypeScript configuration file:&#xA;tsc --init This command creates a tsconfig.json file in your project root, which is the heart of your TypeScript setup. It&amp;rsquo;s where you&amp;rsquo;ll specify how TypeScript compiles your code.</description>
     </item>
-    
   </channel>
 </rss>

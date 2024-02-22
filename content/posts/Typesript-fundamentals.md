@@ -1,6 +1,6 @@
 ---
 title: "Typesript Fundamentals"
-date: 2023-12-14T21:20:15+08:00
+date: 2024-01-20T21:20:15+08:00
 description: ""
 draft: false 
 tags: ["TypeScript"]

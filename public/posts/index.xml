@@ -2,93 +2,89 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Aliff - Blog</title>
-    <link>https://aliff-blog.vercel.app/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Aliff - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Aliff</copyright>
-    <lastBuildDate>Thu, 14 Dec 2023 23:08:53 +0800</lastBuildDate><atom:link href="https://aliff-blog.vercel.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Feb 2024 08:15:55 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building RESTful APIs with Go</title>
+      <link>http://localhost:1313/posts/building_restful_apis_with_go/</link>
+      <pubDate>Sun, 18 Feb 2024 08:15:55 +0800</pubDate>
+      <guid>http://localhost:1313/posts/building_restful_apis_with_go/</guid>
+      <description>Building RESTful APIs with Go Understanding RESTful APIs REST (Representational State Transfer) is an architectural style that defines a set of constraints for creating web services. RESTful APIs are web services that adhere to these constraints, allowing for efficient communication over the internet by using standard HTTP methods like GET, POST, PUT, and DELETE.&#xA;Why Go for API Development? Go, also known as Golang, is a statically typed, compiled programming language designed at Google.</description>
+    </item>
+    <item>
+      <title>Generics in Go</title>
+      <link>http://localhost:1313/posts/generics_in_go/</link>
+      <pubDate>Sat, 10 Feb 2024 08:07:05 +0800</pubDate>
+      <guid>http://localhost:1313/posts/generics_in_go/</guid>
+      <description>Generics in Go: A Comprehensive Guide Understanding Generics Generics allow programmers to write flexible, reusable functions and types that can work with any data type. Before generics, Go developers had to rely on interfaces and type assertions to achieve similar functionality, which could be less efficient and more error-prone.&#xA;Why Generics? Generics can significantly improve your Go code by:&#xA;Reducing Code Duplication: Write a function or data structure once, and use it with different types.</description>
+    </item>
+    <item>
+      <title>Creating a Multithreaded App in Go</title>
+      <link>http://localhost:1313/posts/creating_a_multithreaded_app_in_go/</link>
+      <pubDate>Sun, 04 Feb 2024 07:48:27 +0800</pubDate>
+      <guid>http://localhost:1313/posts/creating_a_multithreaded_app_in_go/</guid>
+      <description>Creating a Multithreaded App in Go: A Comprehensive Guide Multithreading is a pivotal concept that allows applications to perform multiple operations simultaneously, making them more efficient and responsive. Go, with its lightweight goroutines, provides a powerful and straightforward way to implement concurrency. This blog post aims to guide you through the process of creating a multithreaded application in Go, highlighting best practices and common pitfalls to avoid.&#xA;Introduction to Goroutines At the heart of Go&amp;rsquo;s concurrency model are goroutines, which are functions or methods that run concurrently with other functions or methods.</description>
+    </item>
     <item>
       <title>Function and Objects in TypeScript</title>
-      <link>https://aliff-blog.vercel.app/posts/function-and-objects/</link>
-      <pubDate>Thu, 14 Dec 2023 23:08:53 +0800</pubDate>
-      
-      <guid>https://aliff-blog.vercel.app/posts/function-and-objects/</guid>
-      <description>Functions in TypeScript TypeScript enhances JavaScript functions with type safety and additional configurations. Here are some useful compiler options for functions:
-{ &amp;#34;noUnusedLocals&amp;#34;: true, /* Reports errors for unused local variables. */ &amp;#34;noUnusedParameters&amp;#34;: true, /* Raises errors for unused function parameters. */ &amp;#34;noImplicitReturns&amp;#34;: true, /* Ensures all code paths in a function explicitly return a value. */ } Function Declaration Example function calculateTax(income: number, year: number): number { if (year &amp;lt; 2022) { return income * 1.</description>
+      <link>http://localhost:1313/posts/function-and-objects/</link>
+      <pubDate>Sun, 28 Jan 2024 23:08:53 +0800</pubDate>
+      <guid>http://localhost:1313/posts/function-and-objects/</guid>
+      <description>Functions in TypeScript TypeScript enhances JavaScript functions with type safety and additional configurations. Here are some useful compiler options for functions:&#xA;{ &amp;#34;noUnusedLocals&amp;#34;: true, /* Reports errors for unused local variables. */ &amp;#34;noUnusedParameters&amp;#34;: true, /* Raises errors for unused function parameters. */ &amp;#34;noImplicitReturns&amp;#34;: true, /* Ensures all code paths in a function explicitly return a value. */ } Function Declaration Example function calculateTax(income: number, year: number): number { if (year &amp;lt; 2022) { return income * 1.</description>
     </item>
-    
     <item>
       <title>Typesript Fundamentals</title>
-      <link>https://aliff-blog.vercel.app/posts/typesript-fundamentals/</link>
-      <pubDate>Thu, 14 Dec 2023 21:20:15 +0800</pubDate>
-      
-      <guid>https://aliff-blog.vercel.app/posts/typesript-fundamentals/</guid>
-      <description>TypeScript, a strongly typed programming language that builds on JavaScript, offers various built-in types to enhance the coding experience. Understanding these types is crucial for efficient TypeScript programming.
-Built-in Types TypeScript&amp;rsquo;s type inference allows variables to automatically be assigned a type based on the assigned value. However, explicitly defining the type is also possible.
-Example of Type Inference and Explicit Typing let profit = 123_456_789; // Inferred type: number let explicitProfit: number = 123_456_789; // Explicit type: number let variable; // Type: any The any Type The any type is flexible as it can represent any JavaScript value, providing an escape hatch from strict type checking.</description>
+      <link>http://localhost:1313/posts/typesript-fundamentals/</link>
+      <pubDate>Sat, 20 Jan 2024 21:20:15 +0800</pubDate>
+      <guid>http://localhost:1313/posts/typesript-fundamentals/</guid>
+      <description>TypeScript, a strongly typed programming language that builds on JavaScript, offers various built-in types to enhance the coding experience. Understanding these types is crucial for efficient TypeScript programming.&#xA;Built-in Types TypeScript&amp;rsquo;s type inference allows variables to automatically be assigned a type based on the assigned value. However, explicitly defining the type is also possible.&#xA;Example of Type Inference and Explicit Typing let profit = 123_456_789; // Inferred type: number let explicitProfit: number = 123_456_789; // Explicit type: number let variable; // Type: any The any Type The any type is flexible as it can represent any JavaScript value, providing an escape hatch from strict type checking.</description>
     </item>
-    
     <item>
       <title>Getting Started Typescript</title>
-      <link>https://aliff-blog.vercel.app/posts/getting-started-typescript/</link>
-      <pubDate>Wed, 06 Dec 2023 22:35:08 +0800</pubDate>
-      
-      <guid>https://aliff-blog.vercel.app/posts/getting-started-typescript/</guid>
-      <description>Setting Up TypeScript for Your Project TypeScript is a powerful tool that enhances JavaScript with types, making your code more robust and maintainable. Let&amp;rsquo;s walk through setting up TypeScript in your project.
-Step 1: Initialize TypeScript Configuration Start by initializing a TypeScript configuration file:
-tsc --init This command creates a tsconfig.json file in your project root, which is the heart of your TypeScript setup. It&amp;rsquo;s where you&amp;rsquo;ll specify how TypeScript compiles your code.</description>
+      <link>http://localhost:1313/posts/getting-started-typescript/</link>
+      <pubDate>Sun, 14 Jan 2024 22:35:08 +0800</pubDate>
+      <guid>http://localhost:1313/posts/getting-started-typescript/</guid>
+      <description>Setting Up TypeScript for Your Project TypeScript is a powerful tool that enhances JavaScript with types, making your code more robust and maintainable. Let&amp;rsquo;s walk through setting up TypeScript in your project.&#xA;Step 1: Initialize TypeScript Configuration Start by initializing a TypeScript configuration file:&#xA;tsc --init This command creates a tsconfig.json file in your project root, which is the heart of your TypeScript setup. It&amp;rsquo;s where you&amp;rsquo;ll specify how TypeScript compiles your code.</description>
     </item>
-    
     <item>
       <title>Exploring Rendering Techniques and SEO with Next.js</title>
-      <link>https://aliff-blog.vercel.app/posts/rendering-and-seo/</link>
-      <pubDate>Mon, 13 Nov 2023 17:20:52 +0800</pubDate>
-      
-      <guid>https://aliff-blog.vercel.app/posts/rendering-and-seo/</guid>
-      <description>Overview of Rendering Methods in Next.js Next.js offers several rendering methods, each with unique characteristics and use cases:
-Server-Side Rendering (SSR): Renders pages on the server at request time. Static Generation (Prerendering): Generates static HTML at build time. Incremental Static Regeneration (ISR): Updates static content after deployment. Client-Side Rendering: Renders in the browser using JavaScript. Server-Side Rendering in page.tsx By default, page.tsx is server-rendered. To leverage hooks, they must be integrated within client-side components.</description>
+      <link>http://localhost:1313/posts/rendering-and-seo/</link>
+      <pubDate>Sat, 06 Jan 2024 17:20:52 +0800</pubDate>
+      <guid>http://localhost:1313/posts/rendering-and-seo/</guid>
+      <description>Overview of Rendering Methods in Next.js Next.js offers several rendering methods, each with unique characteristics and use cases:&#xA;Server-Side Rendering (SSR): Renders pages on the server at request time. Static Generation (Prerendering): Generates static HTML at build time. Incremental Static Regeneration (ISR): Updates static content after deployment. Client-Side Rendering: Renders in the browser using JavaScript. Server-Side Rendering in page.tsx By default, page.tsx is server-rendered. To leverage hooks, they must be integrated within client-side components.</description>
     </item>
-    
     <item>
       <title>Layout Techniques in Next.js 13</title>
-      <link>https://aliff-blog.vercel.app/posts/layout-in-nextjs-13/</link>
-      <pubDate>Sun, 12 Nov 2023 20:50:54 +0800</pubDate>
-      
-      <guid>https://aliff-blog.vercel.app/posts/layout-in-nextjs-13/</guid>
-      <description>Root layout Next.js 13 introduces enhanced layout capabilities, offering developers more control and flexibility. This guide delves into the concept of root layouts and how they can transform the structure of your Next.js applications.
-Shared Layouts Across Pages: The beauty of root layouts lies in their reusability. By defining a layout at the root level, all child components inherit this structure, ensuring a consistent look and feel across your application.</description>
+      <link>http://localhost:1313/posts/layout-in-nextjs-13/</link>
+      <pubDate>Mon, 01 Jan 2024 20:50:54 +0800</pubDate>
+      <guid>http://localhost:1313/posts/layout-in-nextjs-13/</guid>
+      <description>Root layout Next.js 13 introduces enhanced layout capabilities, offering developers more control and flexibility. This guide delves into the concept of root layouts and how they can transform the structure of your Next.js applications.&#xA;Shared Layouts Across Pages: The beauty of root layouts lies in their reusability. By defining a layout at the root level, all child components inherit this structure, ensuring a consistent look and feel across your application.</description>
     </item>
-    
     <item>
       <title>Mastering API Endpoints with Next.js 13: A Guide to GET and POST Requests</title>
-      <link>https://aliff-blog.vercel.app/posts/route-handlers-nextjs13/</link>
-      <pubDate>Sat, 11 Nov 2023 21:21:25 +0800</pubDate>
-      
-      <guid>https://aliff-blog.vercel.app/posts/route-handlers-nextjs13/</guid>
-      <description>Next.js 13 introduces exciting capabilities for building robust API endpoints. In this post, we&amp;rsquo;ll delve into the practical aspects of creating both GET and POST requests. Whether you&amp;rsquo;re new to Next.js or looking to update your skills with the latest version, this guide will help you understand and implement these essential features.
-Creating a GET Request Here&amp;rsquo;s a simple example of setting up a GET request:
-export async function GET() { return new Response(&amp;#39;Hi&amp;#39;) } This function demonstrates the ease with which you can return a basic response.</description>
+      <link>http://localhost:1313/posts/route-handlers-nextjs13/</link>
+      <pubDate>Sun, 24 Dec 2023 21:21:25 +0800</pubDate>
+      <guid>http://localhost:1313/posts/route-handlers-nextjs13/</guid>
+      <description>Next.js 13 introduces exciting capabilities for building robust API endpoints. In this post, we&amp;rsquo;ll delve into the practical aspects of creating both GET and POST requests. Whether you&amp;rsquo;re new to Next.js or looking to update your skills with the latest version, this guide will help you understand and implement these essential features.&#xA;Creating a GET Request Here&amp;rsquo;s a simple example of setting up a GET request:&#xA;export async function GET() { return new Response(&amp;#39;Hi&amp;#39;) } This function demonstrates the ease with which you can return a basic response.</description>
     </item>
-    
     <item>
       <title>App Routing in Next.js 13: Dynamic Routes Simplified</title>
-      <link>https://aliff-blog.vercel.app/posts/app-router/</link>
-      <pubDate>Thu, 09 Nov 2023 22:22:24 +0800</pubDate>
-      
-      <guid>https://aliff-blog.vercel.app/posts/app-router/</guid>
-      <description>Next.js, a popular React framework, is well-known for its efficiency in building server-rendered applications. One of its powerful features is the file system-based routing mechanism. In this blog post, we&amp;rsquo;ll explore how to implement dynamic routing in Next.js 13, covering both server-side and client-side approaches.
-Dynamic Routing in Server-Side Dynamic routing is a pivotal feature in modern web applications, allowing URLs to be flexibly handled. In Next.js, dynamic routes are defined using file names in square brackets.</description>
+      <link>http://localhost:1313/posts/app-router/</link>
+      <pubDate>Wed, 20 Dec 2023 22:22:24 +0800</pubDate>
+      <guid>http://localhost:1313/posts/app-router/</guid>
+      <description>Next.js, a popular React framework, is well-known for its efficiency in building server-rendered applications. One of its powerful features is the file system-based routing mechanism. In this blog post, we&amp;rsquo;ll explore how to implement dynamic routing in Next.js 13, covering both server-side and client-side approaches.&#xA;Dynamic Routing in Server-Side Dynamic routing is a pivotal feature in modern web applications, allowing URLs to be flexibly handled. In Next.js, dynamic routes are defined using file names in square brackets.</description>
     </item>
-    
     <item>
       <title>What&#39;s New in Next 13</title>
-      <link>https://aliff-blog.vercel.app/posts/whats-new-in-next-13/</link>
+      <link>http://localhost:1313/posts/whats-new-in-next-13/</link>
       <pubDate>Wed, 08 Nov 2023 21:27:53 +0800</pubDate>
-      
-      <guid>https://aliff-blog.vercel.app/posts/whats-new-in-next-13/</guid>
+      <guid>http://localhost:1313/posts/whats-new-in-next-13/</guid>
       <description>Create new next project using typescript npx create-next-app@latest --ts app-name Basic URL structure about -&amp;gt; example/about [slug] -&amp;gt; example/{slug} (group_name) -&amp;gt; example Layout layout only will be implemented on the current sub directory a good place to do data fetching All is Server Component since next13, all compponent is server component by default. So it will be cache if the url is not dynamic, to prevent this can use below way:</description>
     </item>
-    
   </channel>
 </rss>

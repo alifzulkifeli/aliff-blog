@@ -1,6 +1,6 @@
 ---
 title: "Getting Started Typescript"
-date: 2023-12-06T22:35:08+08:00
+date: 2024-01-14T22:35:08+08:00
 description: ""
 draft: false 
 tags: ["TypeScript"]

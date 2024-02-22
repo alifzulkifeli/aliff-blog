@@ -1,6 +1,6 @@
 ---
 title: "App Routing in Next.js 13: Dynamic Routes Simplified"
-date: 2023-11-09T22:22:24+08:00
+date: 2023-12-20T22:22:24+08:00
 description: "A deep dive into implementing dynamic routes in Next.js 13, both server-side and client-side, with practical examples."
 draft: false
 tags: ["Next.js"]

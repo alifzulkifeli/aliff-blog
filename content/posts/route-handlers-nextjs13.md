@@ -1,6 +1,6 @@
 ---
 Title: "Mastering API Endpoints with Next.js 13: A Guide to GET and POST Requests"
-Date: 2023-11-11T21:21:25+08:00
+Date: 2023-12-24T21:21:25+08:00
 Description: "Dive into the world of Next.js 13 as we explore how to efficiently create API endpoints using GET and POST requests."
 Draft: false
 Tags: ["Next.js"]

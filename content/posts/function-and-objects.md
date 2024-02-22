@@ -1,6 +1,6 @@
 ---
 title: "Function and Objects in TypeScript"
-date: 2023-12-14T23:08:53+08:00
+date: 2024-01-28T23:08:53+08:00
 description: "Explore the intricacies of functions and objects in TypeScript."
 draft: false 
 tags: ["TypeScript"]

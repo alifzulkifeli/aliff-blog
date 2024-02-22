@@ -1,6 +1,6 @@
 ---
 title: "Layout Techniques in Next.js 13"
-date: 2023-11-12T20:50:54+08:00
+date: 2024-01-01T20:50:54+08:00
 description: "Next.js 13 layouts and discover how to effectively use root layouts to structure your applications."
 draft: false
 tags: ["Next.js"]

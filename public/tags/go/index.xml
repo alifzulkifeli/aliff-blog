@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go on Aliff - Blog</title>
+    <link>http://localhost:1313/tags/go/</link>
+    <description>Recent content in Go on Aliff - Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Aliff</copyright>
+    <lastBuildDate>Thu, 22 Feb 2024 08:07:05 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generics in Go</title>
+      <link>http://localhost:1313/posts/generics_in_go/</link>
+      <pubDate>Thu, 22 Feb 2024 08:07:05 +0800</pubDate>
+      <guid>http://localhost:1313/posts/generics_in_go/</guid>
+      <description>Generics in Go: A Comprehensive Guide Understanding Generics Generics allow programmers to write flexible, reusable functions and types that can work with any data type. Before generics, Go developers had to rely on interfaces and type assertions to achieve similar functionality, which could be less efficient and more error-prone.&#xA;Why Generics? Generics can significantly improve your Go code by:&#xA;Reducing Code Duplication: Write a function or data structure once, and use it with different types.</description>
+    </item>
+    <item>
+      <title>Creating a Multithreaded App in Go</title>
+      <link>http://localhost:1313/posts/creating_a_multithreaded_app_in_go/</link>
+      <pubDate>Sat, 16 Dec 2023 07:48:27 +0800</pubDate>
+      <guid>http://localhost:1313/posts/creating_a_multithreaded_app_in_go/</guid>
+      <description>Creating a Multithreaded App in Go: A Comprehensive Guide Multithreading is a pivotal concept that allows applications to perform multiple operations simultaneously, making them more efficient and responsive. Go, with its lightweight goroutines, provides a powerful and straightforward way to implement concurrency. This blog post aims to guide you through the process of creating a multithreaded application in Go, highlighting best practices and common pitfalls to avoid.&#xA;Introduction to Goroutines At the heart of Go&amp;rsquo;s concurrency model are goroutines, which are functions or methods that run concurrently with other functions or methods.</description>
+    </item>
+  </channel>
+</rss>
