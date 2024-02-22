@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Aliff - Blog</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://aliff-blog.vercel.app/tags/</link>
     <description>Recent content in Tags on Aliff - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Aliff</copyright>
-    <lastBuildDate>Thu, 22 Feb 2024 08:07:05 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Feb 2024 08:15:55 +0800</lastBuildDate>
+    <atom:link href="https://aliff-blog.vercel.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go</title>
-      <link>http://localhost:1313/tags/go/</link>
-      <pubDate>Thu, 22 Feb 2024 08:07:05 +0800</pubDate>
-      <guid>http://localhost:1313/tags/go/</guid>
+      <link>https://aliff-blog.vercel.app/tags/go/</link>
+      <pubDate>Sun, 18 Feb 2024 08:15:55 +0800</pubDate>
+      <guid>https://aliff-blog.vercel.app/tags/go/</guid>
       <description></description>
     </item>
     <item>
       <title>TypeScript</title>
-      <link>http://localhost:1313/tags/typescript/</link>
-      <pubDate>Thu, 14 Dec 2023 23:08:53 +0800</pubDate>
-      <guid>http://localhost:1313/tags/typescript/</guid>
+      <link>https://aliff-blog.vercel.app/tags/typescript/</link>
+      <pubDate>Sun, 28 Jan 2024 23:08:53 +0800</pubDate>
+      <guid>https://aliff-blog.vercel.app/tags/typescript/</guid>
       <description></description>
     </item>
     <item>
       <title>Next.js</title>
-      <link>http://localhost:1313/tags/next.js/</link>
-      <pubDate>Mon, 13 Nov 2023 17:20:52 +0800</pubDate>
-      <guid>http://localhost:1313/tags/next.js/</guid>
+      <link>https://aliff-blog.vercel.app/tags/next.js/</link>
+      <pubDate>Sat, 06 Jan 2024 17:20:52 +0800</pubDate>
+      <guid>https://aliff-blog.vercel.app/tags/next.js/</guid>
       <description></description>
     </item>
   </channel>
